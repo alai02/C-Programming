@@ -1,0 +1,12 @@
+Name: Alex Lai
+Student Number: 0920158
+Email: alai02@main.uoguelph.ca
+Class: cis2500
+Assignment: A2 redo
+Compilation: make OR gcc -std=c99 -Wall src/main.c src/drawThings.c src/playGame.c src/heroMove.c -Iinclude -lncurses 
+Usage: ./a.out assets/(text file of choice) example: ./a.out assets/hard.txt
+Testing: The hard and easy files that were provided by justin were used to test this program. 
+Known Limitations: Sometimes running into stairs is a bit glitchy and takes 2 presses into the stairs to exit the game/
+NOTE: I decided to make the player move to a random door because i thought it would 
+be more interesting this way. Sorry for violating the spec <3
+References: Outside of using the A2 spec, Various forum posts were read to clarify the assignment. No other sources were used. 
